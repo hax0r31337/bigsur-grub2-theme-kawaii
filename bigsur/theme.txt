@@ -1,7 +1,7 @@
 # GRUB2 gfxmenu Linux theme
 # BigSur theme
 # Designed for 1920x1080 resolution
-# Background: Konachan.com - 340481 bow brown_hair cherry_blossoms close flowers green_eyes jiang-ge original petals ribbons school_uniform short_hair tears twintails
+# Background: pixiv 85902498_p0
 
 desktop-image: "background.png"
 
@@ -39,11 +39,11 @@ terminal-box: "terminal_*.png"
     height = 20
     width = 600
     color = "#757575"
-    font = "Terminus Regular 16"
+    item_font = "DejaVu Sans Regular 16"
     align = "center"
     id = "__timeout__"
     text = "@TIMEOUT_NOTIFICATION_LONG@"
-    text_color = "#efefef"
+    text_color = "#111111"
     bar_style = "*"
     highlight_style = "*"
 }
@@ -69,6 +69,6 @@ terminal-box: "terminal_*.png"
     height = 25
     width = 600
     align = "center"
-    color = "#eff0f1"
+    color = "#111111"
     text = "@KEYMAP_SHORT@"
 }
